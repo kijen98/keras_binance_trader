@@ -1,13 +1,13 @@
-## keras_binance_trader
+# keras_binance_trader
 Binance cryptocurrency auto trading system with keras prediction model
 
-# 1. Data_Downloader
+## 1. Data_Downloader
 You can get cryptocurrency stock price or candle data of stock price from Binance.
 
 In the case of Binance, you can choose between spot and future markets.
 
 
-# 2. Train_and_Test
+## 2. Train_and_Test
 
 You can load ohlc data, train a model, and calculate yield with virtual trading.
 
@@ -16,7 +16,7 @@ It can be simulated by setting market trading and limit trading, and it is possi
 More than 100 symbol data was used for actual training, and it was not uploaded to github due to capacity issues.
 
 
-3. Trader
+## 3. Trader
 
 Using docker, collect candle data every minute, use the model to decide whether to trade, implement an automatic trading bot.
 
